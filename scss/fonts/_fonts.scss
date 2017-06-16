@@ -1,0 +1,184 @@
+//
+// Magento Enterprise Edition
+//
+// NOTICE OF LICENSE
+//
+// This source file is subject to the Magento Enterprise Edition End User License Agreement
+// that is bundled with this package in the file LICENSE_EE.txt.
+// It is also available through the world-wide-web at this URL:
+// http://www.magento.com/license/enterprise-edition
+// If you did not receive a copy of the license and are unable to
+// obtain it through the world-wide-web, please send an email
+// to license@magento.com so we can send you a copy immediately.
+//
+// DISCLAIMER
+//
+// Do not edit or add to this file if you wish to upgrade Magento to newer
+// versions in the future. If you wish to customize Magento for your
+// needs please refer to http://www.magento.com for more information.
+//
+// @category    design
+// @package     rwd_default
+// @copyright Copyright (c) 2006-2017 X.commerce, Inc. and affiliates (http://www.magento.com)
+// @license http://www.magento.com/license/enterprise-edition
+//
+
+// =============================================
+// Fonts
+// =============================================
+
+@font-face {
+    font-family: 'Avenir';
+    src: url('../../fonts/subset-AvenirLTStd-Black.eot');
+    src: url('../../fonts/subset-AvenirLTStd-Black.eot?#iefix') format('embedded-opentype'),
+    url('../../fonts/subset-AvenirLTStd-Black.woff2') format('woff2'),
+    url('../../fonts/subset-AvenirLTStd-Black.woff') format('woff'),
+    url('../../fonts/subset-AvenirLTStd-Black.ttf') format('truetype'),
+    url('../../fonts/subset-AvenirLTStd-Black.svg#AvenirLTStd-Black') format('svg');
+    font-weight: 900;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Avenir';
+    src: url('../../fonts/subset-AvenirLTStd-Medium.eot');
+    src: url('../../fonts/subset-AvenirLTStd-Medium.eot?#iefix') format('embedded-opentype'),
+    url('../../fonts/subset-AvenirLTStd-Medium.woff2') format('woff2'),
+    url('../../fonts/subset-AvenirLTStd-Medium.woff') format('woff'),
+    url('../../fonts/subset-AvenirLTStd-Medium.ttf') format('truetype'),
+    url('../../fonts/subset-AvenirLTStd-Medium.svg#AvenirLTStd-Medium') format('svg');
+    font-weight: 500;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Avenir';
+    src: url('../../fonts/subset-AvenirLTStd-BlackOblique.eot');
+    src: url('../../fonts/subset-AvenirLTStd-BlackOblique.eot?#iefix') format('embedded-opentype'),
+    url('../../fonts/subset-AvenirLTStd-BlackOblique.woff2') format('woff2'),
+    url('../../fonts/subset-AvenirLTStd-BlackOblique.woff') format('woff'),
+    url('../../fonts/subset-AvenirLTStd-BlackOblique.ttf') format('truetype'),
+    url('../../fonts/subset-AvenirLTStd-BlackOblique.svg#AvenirLTStd-BlackOblique') format('svg');
+    font-weight: 900;
+    font-style: italic;
+}
+
+@font-face {
+    font-family: 'Avenir';
+    src: url('../../fonts/subset-AvenirLTStd-Roman.eot');
+    src: url('../../fonts/subset-AvenirLTStd-Roman.eot?#iefix') format('embedded-opentype'),
+    url('../../fonts/subset-AvenirLTStd-Roman.woff2') format('woff2'),
+    url('../../fonts/subset-AvenirLTStd-Roman.woff') format('woff'),
+    url('../../fonts/subset-AvenirLTStd-Roman.ttf') format('truetype'),
+    url('../../fonts/subset-AvenirLTStd-Roman.svg#AvenirLTStd-Roman') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Avenir';
+    src: url('../../fonts/subset-AvenirLTStd-Heavy.eot');
+    src: url('../../fonts/subset-AvenirLTStd-Heavy.eot?#iefix') format('embedded-opentype'),
+    url('../../fonts/subset-AvenirLTStd-Heavy.woff2') format('woff2'),
+    url('../../fonts/subset-AvenirLTStd-Heavy.woff') format('woff'),
+    url('../../fonts/subset-AvenirLTStd-Heavy.ttf') format('truetype'),
+    url('../../fonts/subset-AvenirLTStd-Heavy.svg#AvenirLTStd-Heavy') format('svg');
+    font-weight: 900;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Avenir';
+    src: url('../../fonts/subset-AvenirLTStd-Book.eot');
+    src: url('../../fonts/subset-AvenirLTStd-Book.eot?#iefix') format('embedded-opentype'),
+    url('../../fonts/subset-AvenirLTStd-Book.woff2') format('woff2'),
+    url('../../fonts/subset-AvenirLTStd-Book.woff') format('woff'),
+    url('../../fonts/subset-AvenirLTStd-Book.ttf') format('truetype'),
+    url('../../fonts/subset-AvenirLTStd-Book.svg#AvenirLTStd-Book') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Avenir';
+    src: url('../../fonts/subset-AvenirLTStd-BookOblique.eot');
+    src: url('../../fonts/subset-AvenirLTStd-BookOblique.eot?#iefix') format('embedded-opentype'),
+    url('../../fonts/subset-AvenirLTStd-BookOblique.woff2') format('woff2'),
+    url('../../fonts/subset-AvenirLTStd-BookOblique.woff') format('woff'),
+    url('../../fonts/subset-AvenirLTStd-BookOblique.ttf') format('truetype'),
+    url('../../fonts/subset-AvenirLTStd-BookOblique.svg#AvenirLTStd-BookOblique') format('svg');
+    font-weight: normal;
+    font-style: italic;
+}
+
+@font-face {
+    font-family: 'Avenir';
+    src: url('../../fonts/subset-AvenirLTStd-HeavyOblique.eot');
+    src: url('../../fonts/subset-AvenirLTStd-HeavyOblique.eot?#iefix') format('embedded-opentype'),
+    url('../../fonts/subset-AvenirLTStd-HeavyOblique.woff2') format('woff2'),
+    url('../../fonts/subset-AvenirLTStd-HeavyOblique.woff') format('woff'),
+    url('../../fonts/subset-AvenirLTStd-HeavyOblique.ttf') format('truetype'),
+    url('../../fonts/subset-AvenirLTStd-HeavyOblique.svg#AvenirLTStd-HeavyOblique') format('svg');
+    font-weight: 900;
+    font-style: italic;
+}
+
+@font-face {
+    font-family: 'Avenir';
+    src: url('../../fonts/subset-AvenirLTStd-Light.eot');
+    src: url('../../fonts/subset-AvenirLTStd-Light.eot?#iefix') format('embedded-opentype'),
+    url('../../fonts/subset-AvenirLTStd-Light.woff2') format('woff2'),
+    url('../../fonts/subset-AvenirLTStd-Light.woff') format('woff'),
+    url('../../fonts/subset-AvenirLTStd-Light.ttf') format('truetype'),
+    url('../../fonts/subset-AvenirLTStd-Light.svg#AvenirLTStd-Light') format('svg');
+    font-weight: 300;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Avenir';
+    src: url('../../fonts/subset-AvenirLTStd-MediumOblique.eot');
+    src: url('../../fonts/subset-AvenirLTStd-MediumOblique.eot?#iefix') format('embedded-opentype'),
+    url('../../fonts/subset-AvenirLTStd-MediumOblique.woff2') format('woff2'),
+    url('../../fonts/subset-AvenirLTStd-MediumOblique.woff') format('woff'),
+    url('../../fonts/subset-AvenirLTStd-MediumOblique.ttf') format('truetype'),
+    url('../../fonts/subset-AvenirLTStd-MediumOblique.svg#AvenirLTStd-MediumOblique') format('svg');
+    font-weight: 500;
+    font-style: italic;
+}
+
+@font-face {
+    font-family: 'Avenir';
+    src: url('../../fonts/subset-AvenirLTStd-LightOblique.eot');
+    src: url('../../fonts/subset-AvenirLTStd-LightOblique.eot?#iefix') format('embedded-opentype'),
+    url('../../fonts/subset-AvenirLTStd-LightOblique.woff2') format('woff2'),
+    url('../../fonts/subset-AvenirLTStd-LightOblique.woff') format('woff'),
+    url('../../fonts/subset-AvenirLTStd-LightOblique.ttf') format('truetype'),
+    url('../../fonts/subset-AvenirLTStd-LightOblique.svg#AvenirLTStd-LightOblique') format('svg');
+    font-weight: 300;
+    font-style: italic;
+}
+
+@font-face {
+    font-family: 'Avenir';
+    src: url('../../fonts/subset-AvenirLTStd-Oblique.eot');
+    src: url('../../fonts/subset-AvenirLTStd-Oblique.eot?#iefix') format('embedded-opentype'),
+    url('../../fonts/subset-AvenirLTStd-Oblique.woff2') format('woff2'),
+    url('../../fonts/subset-AvenirLTStd-Oblique.woff') format('woff'),
+    url('../../fonts/subset-AvenirLTStd-Oblique.ttf') format('truetype'),
+    url('../../fonts/subset-AvenirLTStd-Oblique.svg#AvenirLTStd-Oblique') format('svg');
+    font-weight: normal;
+    font-style: italic;
+}
+
+@font-face {
+    font-family: 'Didot';
+    src: url('../../fonts/subset-TheanoDidot-Regular.eot');
+    src: url('../../fonts/subset-TheanoDidot-Regular.eot?#iefix') format('embedded-opentype'),
+    url('../../fonts/subset-TheanoDidot-Regular.woff2') format('woff2'),
+    url('../../fonts/subset-TheanoDidot-Regular.woff') format('woff'),
+    url('../../fonts/subset-TheanoDidot-Regular.ttf') format('truetype'),
+    url('../../fonts/subset-TheanoDidot-Regular.svg#TheanoDidot-Regular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
